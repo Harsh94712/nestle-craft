@@ -61,6 +61,16 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				footer: {
+					DEFAULT: 'hsl(var(--footer-background))',
+					foreground: 'hsl(var(--footer-foreground))',
+					muted: 'hsl(var(--footer-muted))',
+					accent: 'hsl(var(--footer-accent))',
+					card: 'hsl(var(--footer-card))',
+					border: 'hsl(var(--footer-border))',
+					input: 'hsl(var(--footer-input))',
+					'input-foreground': 'hsl(var(--footer-input-foreground))'
 				}
 			},
 			borderRadius: {
